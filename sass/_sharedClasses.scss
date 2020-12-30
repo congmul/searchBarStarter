@@ -1,37 +1,37 @@
 .blue {
     color: $logo-blue;
-}
-
-.red {
+  }
+  
+  .red {
     color: $logo-red;
-}
-
-.yellow {
+  }
+  
+  .yellow {
     color: $logo-yellow;
-}
-
-.green {
+  }
+  
+  .green {
     color: $logo-green;
-}
-
-.exclaim {
+  }
+  
+  .exclaim {
     display: inline-block;
     font-size: 2.5rem;
     transform: rotate(12deg);
     @include mq(768px) {
-        font-size: 5rem;
+      font-size: 5rem;
     }
-}
-
-.offscreen {
+  }
+  
+  .offscreen {
     position: absolute;
     left: -10000px;
-}
-
-.none {
+  }
+  
+  .none {
     display: none;
-}
-
-.flex {
+  }
+  
+  .flex {
     display: flex;
-}
+  }

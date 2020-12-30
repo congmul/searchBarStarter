@@ -1,9 +1,8 @@
 export const setSearchFocus = () => {
     document.getElementById("search").focus();
-};
-
-
-export const showClearTextButton = () => {
+  };
+  
+  export const showClearTextButton = () => {
     const search = document.getElementById("search");
     const clear = document.getElementById("clear");
     if (search.value.length) {
@@ -30,4 +29,3 @@ export const showClearTextButton = () => {
       document.getElementById("clear").click();
     }
   };
-  
